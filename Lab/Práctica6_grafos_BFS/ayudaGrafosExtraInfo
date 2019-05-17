@@ -1,0 +1,35 @@
+contU = 0
+contV = 0
+contCost = 0
+k = 0
+u2 = 0
+v2 = 0
+cost2 = 0
+while k < len(totalGraph):
+    x = 0
+    y = 1
+    z = 2
+    u2 = totalGraph[x]
+    v2 = totalGraph[y]
+    cost2 = totalGraph[z]
+    x += 1
+    y += 1
+    z += 1
+    k += 1
+
+
+    i = 0
+
+      num = g.numEdges
+      while i < num:
+          u = int(input("u : "))
+          v = int(input("v : "))
+          if g.hasCost == True:
+              cost = cost2
+          else:
+              cost = 1
+          insertEdge(g,u,v,cost,g.isDirected)
+          matrix[u-1][v-1] = cost
+          if g.isDirected == False:
+              matrix[v-1][u-1] = cost
+          i += 1

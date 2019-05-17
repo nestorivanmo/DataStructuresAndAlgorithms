@@ -1,0 +1,68 @@
+-Búsqueda Lineal:
+	-Iterativa:
+		-Mejor caso -> elemento a buscar esté en la primera posición (X)
+		-Caso promedio -> elemento a buscar esté en una posición aleatoria (X)
+		-Peor caso -> elemento a buscar esté en la última posición  (X)
+	-Recursiva:
+		-Mejor caso (X)
+		-Peor caso (X)
+		-Caso promedio (X)
+
+-Búsqueda Binaria:
+    -Iterativa:
+        -Mejor caso -> cuando estemos buscando el elemento de en medio
+            -Alg. ord. lineal (Merge Sort)
+                -Mejor caso () -> lista.sort()
+                -Peor caso () -> lista.reverse()
+                -Caso promedio () -> lista de manera aleatoria
+            -Alg. ord. cuadrático (bubble Sort)
+                -Mejor caso () ->  lista.sort(X)
+                -Peor caso () -> lista.reverse(X)
+                -Caso promedio (X) -> lista de manera aleatoria
+        -Caso promedio -> cuando estemos buscando un elemento que no esté en medio
+            -Alg. ord. lineal (Merge Sort)
+                -Mejor caso ()
+                -Peor caso ()
+                -Caso promedio ()
+            -Alg. ord. cuadrático (bubble Sort)
+                -Mejor caso (X)
+                -Peor caso (X)
+                -Caso promedio (X)
+        -Peor caso -> cuando estemos buscando un elemento inexistente
+            -Alg. ord. lineal (Merge Sort)
+                -Mejor caso ()
+                -Peor caso ()
+                -Caso promedio ()
+            -Alg. ord. cuadrático (bubble Sort)
+                -Mejor caso (X)
+                -Peor caso (X)
+                -Caso promedio (X)
+        
+    -Recursiva:
+        -Mejor caso -> 
+            -Alg. ord. lineal (Merge Sort)
+                -Mejor caso ()
+                -Peor caso ()
+                -Caso promedio ()
+            -Alg. ord. cuadrático (bubble Sort)
+                -Mejor caso ()
+                -Peor caso ()
+                -Caso promedio ()
+        -Caso promedio -> 
+            -Alg. ord. lineal (Merge Sort)
+                -Mejor caso ()
+                -Peor caso ()
+                -Caso promedio ()
+            -Alg. ord. cuadrático (bubble Sort)
+                -Mejor caso ()
+                -Peor caso ()
+                -Caso promedio ()
+        -Peor caso ->
+            -Alg. ord. lineal (Merge Sort)
+                -Mejor caso ()
+                -Peor caso ()
+                -Caso promedio ()
+            -Alg. ord. cuadrático (bubble Sort)
+                -Mejor caso ()
+                -Peor caso ()
+                -Caso promedio ()
